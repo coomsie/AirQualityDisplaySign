@@ -1,0 +1,9 @@
+{ uri: 'https://api.particle.io/v1/webhooks',
+  method: 'POST',
+  json: 
+   { event: 'get_PM10',
+     url: 'http://data.ecan.govt.nz/data/100/Air/Latest%20Air%20Quality%20Data/JSON?AirMonType=50',
+     deviceid: undefined,
+     requestType: 'GET',
+     mydevices: true },
+  headers: { Authorization: 'Bearer 31e364dcdf8ca9707cd64b36ae750b84d45b9a46' } }
